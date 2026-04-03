@@ -1,3 +1,6 @@
+import java.awt.*;
+import java.awt.event.*;
+
 public class TicTacToe
 {
 	public static void main(String[] args)
