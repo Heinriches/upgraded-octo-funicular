@@ -1,9 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 
-class Demo extends Frame implements ActionListener		// This class is the Window Blueprint
+class Fdemo extends Frame implements ActionListener		// This class is the Window Blueprint
 	{
-		Demo()												// Class constructor-method
+		Fdemo()												// Class constructor-method
 		{
 			System.out.println("Building the window...");
 			setLayout(null);								// Manual placement of buttons
