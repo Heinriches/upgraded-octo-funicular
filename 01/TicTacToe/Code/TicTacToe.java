@@ -19,7 +19,7 @@ public class TicTacToe
 			setLayout(null);								// Manual placement of buttons
 			setSize(800, 600);								// Width and Height
 			setLocation(400, 100);							// Where it appears on your monitor
-			setBackground(Color.Black);						// Window background color
+			setBackground(Color.BLACK);						// Window background color
 			setVisible(true);								// Make it appear
 		}
 		
