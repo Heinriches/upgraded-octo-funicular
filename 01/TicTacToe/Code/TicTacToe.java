@@ -1,17 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class TicTacToe
-{
-	public static void main(String[] args)
-	{
-		System.out.println("Game is starting...");
-		
-		new Demo();
-		
-	}
-	
-	class Demo extends Frame implements ActionListener		// This class is the Window Blueprint
+class Demo extends Frame implements ActionListener		// This class is the Window Blueprint
 	{
 		Demo()												// Class constructor-method
 		{
@@ -28,4 +18,15 @@ public class TicTacToe
 			// Logic goes here later
 		}
 	}
+
+public class TicTacToe
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Game is starting...");
+		
+		new Demo();
+		
+	}
+
 }
