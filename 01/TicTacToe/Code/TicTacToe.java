@@ -10,6 +10,7 @@ class Demo extends Frame implements ActionListener		// This class is the Window 
 			setSize(800, 600);								// Width and Height
 			setLocation(400, 100);							// Where it appears on your monitor
 			setBackground(Color.BLACK);						// Window background color
+			setForeground(Color.white);						// Window foreground color
 			setVisible(true);								// Make it appear
 		}
 		
